@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="taccount" type="id" />
+    <item name="tEmail" type="id" />
+    <item name="tbalance" type="id" />
+    <item name="pemail" type="id" />
+    <item name="pbal" type="id" />
+    <item name="pacc" type="id" />
+    <item name="tname" type="id" />
+    <item name="bback" type="id" />
+    <item name="namt" type="id" />
+    <item name="bback2" type="id" />
+</resources>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sow">
+
+    <TextView
+        android:id="@+id/taccount"
+        android:layout_width="274dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="112dp"
+
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName2"
+        app:layout_constraintTop_toBottomOf="@+id/tname" />
+
+    <TextView
+        android:id="@+id/tEmail"
+        android:layout_width="274dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="28dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:translationY="-14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName4"
+        app:layout_constraintTop_toBottomOf="@+id/tbalance"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tbalance"
+        android:layout_width="274dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="24dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:translationY="-23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName3"
+        app:layout_constraintTop_toBottomOf="@+id/taccount"
+        app:layout_constraintVertical_bias="0.094" />
+
+    <TextView
+        android:id="@+id/tname"
+        android:layout_width="274dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:translationY="-7dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/printtitle" />
+
+    <TextView
+        android:id="@+id/printtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:text="Your Account Details are:"
+        android:textColor="@color/purple_700"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Go Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.647"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tEmail"
+        app:layout_constraintVertical_bias="0.514"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bback2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="106dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="68dp"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:text="Name:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/printtitle" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="104dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Account no:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="104dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Balance:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="103dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Email:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
